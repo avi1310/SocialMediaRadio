@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -29,4 +29,102 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.App {
+  margin-top: 15px;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+.chatbot {
+  width: 100%;
+  overflow-y: scroll;
+  float: right;
+}
+
+/*.w-text {
+  align-self: baseline;
+}*/
+
+.App.chatbot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lex {
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  max-height: 350px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  width: 500px;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+}
+
+#record {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.fb-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.timeline {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.record-it {
+    align-self: flex-end;
+    position: relative;
+    top: -32px;
+    font-size: 19px;
+    right: 61px;
+    padding: 5px;
+    border: 0px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logout-btn {
+    display: inline-block;
+    padding: 2px 2px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.42857143;
+    /* text-align: center; */
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    background-color: #f8f8f8;
+    border-radius: 11px;
 }

@@ -1,3 +1,12 @@
+select.form-control,
+textarea.form-control,
+input.form-control {
+  font-size: 16px;
+}
+input[type=file] {
+  width: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
